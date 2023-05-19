@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
     <title>Home</title>
 </head>
 <body style="overflow: hidden;
@@ -42,9 +43,76 @@
         </div>
       </nav>
 
-      <div class="container" style="margin-top:200px; background-color: white; border-radius: 10px; width: 600px; height: 400px;">
+      <div class="container" style="margin-top:200px; background-color: white; border-radius: 10px; width: 1000px; height: 600px;">
        <br>
-        <h5 style="text-align: left;">ㅤㅤㅤOlá bem vindo ao Sistema de cadastro dos alunos do 2B, Junior Hora e Gustavo Bandeira.Nosso sistema é bem simples, se dá ao usuário acessar página principal onde nela ele tera duas opções cadastrar e salvar <br> *Cadstrar <br> onde o usuario escreve suas informações e serão salvas <br> *Entrar <br> No Entrar ao botar seu email e senha ele terá acesso á suas informaões pessoais do cadastro</h5>
+        <h1 style="text-align: left; font-size: 2em; font-weight: bold;">ㅤㅤㅤOlá, seja bem vindo ao Sistema de Cadastro do 2ºB,
+           programado por Junior Hora e Gustavo Bandeira.<br>ㅤㅤㅤO sistema é simples,
+            o usuário poderá acessar a página principal, onde haverá as opções:
+            <br> <br>
+          <!-- Button trigger modal -->
+          ㅤㅤㅤㅤㅤㅤㅤ<button style="background-color: aqua; font-size: 1em; border-radius: 10px; border: none; color: white;
+width: 250px; height: 100px; font-weight: bold;" type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+  CADASTRAR
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">CADASTRAR</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        Ao clicar na opção em evidência, o usuário digitará seus dados, com destaque
+        para: seu nome, data de nascimento, seu curso, sua turma, CPF e o CEP!
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+        <button type="button" class="btn btn-primary">Entendido</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Button trigger modal -->
+<button style="background-color: greenyellow; font-size: 1em; border-radius: 10px; border: none; color: white;
+width: 250px; height: 100px; font-weight: bold;" type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+  ENTRAR
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="staticBackdropLabel">ENTRAR</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        Ao clicar na opção em evidência, o usuário deve colocar
+        seu e-mail e sua senha registrados no cadastro, assim podendo
+        visualizar os dados informados na primeira etapa!
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+        <button type="button" class="btn btn-primary">Entendido</button>
+      </div>
+    </div>
+  </div>
+</div>
+<br>
+<br>
+ㅤㅤㅤContinue viajando pelo programa acessando a barra de navegação acima, nela 
+você pode escolher qual tela deseja navegar.
+<select class="form-select form-select-lg mb-3" aria-label=".form-select-lg example">
+  <option selected>Opções disponíveis</option>
+  <option value="1">HOME(tela de início)</option>
+  <option value="2">LOGIN(tela de login)</option>
+  <option value="3">CADASTRO(tela de cadastro)</option>
+</select>
+</h1>
+            
+
       </div>
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
 </body>

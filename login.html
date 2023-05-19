@@ -8,7 +8,8 @@
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body style="overflow: hidden; background: url(https://wallpaperaccess.com/full/4893812.jpg) no-repeat center; background-size: 100%; height: 100vh; width: 100vw;">
+<body style="overflow: hidden;
+background: url(https://cdn.wallpapersafari.com/8/59/0V5Tqe.jpg) no-repeat center;background-size: 100%;height: 100vh;width: 100vw;">
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">Sistema de Cadastro</a>
@@ -38,40 +39,40 @@
           </div>
         </div>
       </nav>
-    <div class="container" style="margin-top:200px; background-color: white; border-radius: 10px; width: 400px; height: 460px;">
-        <form>
+    <div class="container" style="margin-top:200px; background: transparent; border-radius: 10px; width: 400px; height: 460px;">
+        <form id="loginForm">
             <br>
-            <h1 class="text-center">Login</h1> 
+            <h1 style="color: white;" class="text-center">Login</h1> 
             <br>
             <div class="row text-center">
                 <div class="col-sm-12">
                     <br>
-                    <label for="exampleInputNome">Email:</label>
-                    <input type="email" class="form-control" id="exampleInputNome" aria-describedby="emailHelp" placeholder="">
+                    <label style="color: white;" for="exampleInputNome">Email:</label>
+                    <input style="color: white; background: transparent;" type="email" class="form-control" id="eemail" aria-describedby="emailHelp" placeholder="">
                     <br>
                 </div>
             </div>
             <div class="row text-center">
                 <div class="col-sm-12">
                     <br>
-                    <label for="exampleInputnomem">Senha:</label>
-                    <input type="password" class="form-control" id="exampleInputnomem" placeholder="">
+                    <label style="color: white;" for="exampleInputnomem">Senha:</label>
+                    <input style="color: white; background: transparent;" type="password" class="form-control" id="ssenha" placeholder="">
                 </div>
             </div>
             <div class="butao text-center">
                 <br>
                 <br>
-                <button id="btnAdd" style="background-color: rgb(255, 255, 255); width: 9em; color: black;" type="button" class=" form-control btn btn-primary"
+                <button type="submit" class="" id="btnAdd">Entrar</button>
+                <!-- <button id="btnAdd" style="background-color: black; width: 9em; color: white; border: solid; border-radius: 20px;" type="button" class=" form-control btn btn-primary"
                 data-bs-target="#exampleModal" placeholder="" onclick="">
                 <a class="nav-link active" aria-current="page" href="dcadastro.html" target="_blank">
-                  Entrar</a>
+                  Entrar</a> -->
               </button>
             </div>
         </form>
     </div>
 </div>
 <samp id="conteudo"></samp>
-<input type="button" id="btnLimp" value="Limpar Storage" />
     <script src="script.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
 </body>
